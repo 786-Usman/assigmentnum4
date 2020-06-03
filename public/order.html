@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0 (1)/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
+    <a class="navbar-brand" href="#"><img width="120"  src="Untitled-1.png" alt="img"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+       
+    </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"> <button type="button" class="btn btn-outline-danger">Home</button>  <span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#"><button type="button" class="btn btn-outline-danger">About</button> </a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><button type="button" class="btn btn-outline-danger">Contact</button> </a>
+          </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button type="button" class="btn btn-outline-danger"> Product</button> 
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="index2.html">  Jewellery  </a>
+            <a class="dropdown-item" href="multiple.html">Multiple </a>
+            <a class="dropdown-item" href="multiple.html">Frame </a>
+            
+           
+          </div>
+        </li>
+      </ul>
+      </span>
+    </div>
+    <div>
+     <a  class="user" href="user.html"><button type="button" class="btn btn-outline-danger">  <i class="fa fa-user-circle-o" aria-hidden="true"></i> </button>  </a>  
+
+     <!-- <a  class="addcard" href="order.html"> <button type="button" class="btn btn-outline-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>            </button> </a>      -->
+    </div>
+    </nav>
+  
+
+
+   <div class="container-sm ">
+    <div class="conformation">
+      <h1 class="ordertext" >  Order Form </h1> 
+      <table width="400" border="1px" >
+        <tr>
+          <td>
+    <form class="form" action="thankyou.html" method="GET">
+     <br>
+    <p>  Full Name <br>
+     <input type="text" required  name=" Full Name" placeholder="Enter Your First And Last Name " size="30" max="45" > 
+  </p> 
+    <p>  Phone Number  <br> 
+ <input required type="text"   id="Phone Number" placeholder="Please Enter Your Number" size="30" max="45" >  </p>
+ <p>  Select Cagetory  <br> 
+  <input type="radio" name="product category" value="Jewellery" > Jewellery <input type="radio" name="product category" value="frame" > Frames <input type="radio" name="product category" value="multiple"  > Multiple  </p>
+  <p>  If Select Customize  <br> 
+    <input type="text" placeholder="What You Want To Write" size="30" max="45" >  </p>
+    <p>   Jewellery Product Color  <br> 
+      <input type="radio" name="Jewellerycolor" value="Golden" > Golden  <input type="radio" name="Jewellerycolor" value="Silver" > Silver </p>
+  <p>  Product Numer  <br> 
+    <input required type="text"  placeholder="P#" size="30" max="45" >  </p>
+  
+    <p>  Multiple Product Color Select <br> 
+      <input type="text" placeholder="Color Name" size="30" max="45" >  </p>
+    <p>  Quantity  <br> 
+      <input type="text" placeholder="1" size="30" max="45" >  </p>
+ <p>  Area  <br>
+  <input  required type="text"  placeholder="Please Enter Your Area" size="30" max="45" >  </p>
+  <p>  Address  <br>
+    <input required type="text"   placeholder="Please Enter Your Address" size="30" max="45" >  </p>
+    <p>  Delivery  <br> 
+      <input required type="radio" name="Delivery" value="dc karachi" > Karachi <input required type="radio"  name="Delivery" value="dc out of city" > Out Of City  </p>
+    <h3> <b> Notice:  </b>  </h3>
+    <p> Delivery Charges karachi 200 <br>
+      Out Of city 300   </p>
+      <h3>    <b> Payment Method  </b> </h3>   
+            Out Of City 50% Advance        
+      <p>  Payment Option <br> 
+        <input required type="radio" name="Delivery" value="dc karachi" > Easypaisa <input required type="radio"  name="Delivery" value="dc out of city" > Cash On Deliver  </p>
+      <p> Apply Term And condition <br>
+      <input required type="checkbox"> </p>
+   <a href="" > <input type="submit" value="Sumbit"  class="btn btn-danger">   <input class="btn btn-danger" type="reset" value="Reset">      </a> 
+  </td>
+  </tr> 
+  </form>
+  </table>
+  </div>
+</div>
+   
+
+
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
